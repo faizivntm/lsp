@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100vh;
+    background-color: #343a40;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #17a2b8;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+header h2 {
+    color: white;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.input-group-text {
+    cursor: pointer;
+}
+
+/* login_style.css */
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #17a2b8;
+    /* Header background color */
+    color: #fff;
+    /* Header text color */
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 50px;
+}
+
+.btn-primary {
+    background-color: #17a2b8;
+    /* Button background color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #17a2b8;
+    /* Button hover background color */
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.input-group-text {
+    cursor: pointer;
+}
+
+.alert {
+    border-radius: 10px;
+}

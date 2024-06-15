@@ -1,0 +1,41 @@
+h2 {
+    padding: 40px;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h5 {
+    padding: 10px;
+    background-color: #17a2b8;
+    color: #fff;
+    text-align: left;
+}
+
+.company_ttd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #17a2b8;
+    color: #fff;
+    text-align: left;
+}
+
+
+.btn-back {
+    padding: 20px;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-back:hover {
+    padding: 20px;
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.ttd_hrd {
+    padding: 40px;
+}

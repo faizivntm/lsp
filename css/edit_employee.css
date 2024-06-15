@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    word-wrap: break-word;
+    /* Menambahkan patahan kata untuk menghindari teks terpotong */
+}
+
+select.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: 50%;
+    padding-right: 30px;
+}
+
+button.btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #17a2b8;
+    color: #fff;
+    cursor: pointer;
+}
+
+button.btn-primary:hover {
+    background-color: #17a2b8;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+}
+
+.success-message {
+    color: #28a745;
+    font-size: 14px;
+}
+
+/* Tambahan untuk mengatasi masalah tinggi form di dalam modal */
+.modal-body {
+    padding: 20px;
+    min-height: 300px;
+    /* Atur min-height sesuai kebutuhan */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 576px) {
+    .container {
+        padding: 15px;
+    }
+}

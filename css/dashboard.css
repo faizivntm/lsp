@@ -1,0 +1,208 @@
+/* Atur margin dan padding body ke 0 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    /* Warna background yang ringan untuk seluruh halaman */
+}
+
+/* Atur header untuk memiliki lebar penuh layar */
+header {
+    margin-top: 0;
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 0;
+    /* Menghilangkan border radius */
+    width: 100%;
+    color: white;
+    /* Warna teks putih */
+    text-align: center;
+}
+
+/* Gaya untuk judul di header */
+header h1,
+header h2 {
+    margin: 0;
+}
+
+/* Gaya untuk paragraf di header */
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #17a2b8;
+    /* Warna teks yang menarik */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #17a2b8;
+    /* Warna latar belakang untuk navigasi */
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+nav .nav-link {
+    font-size: 1.1rem;
+    color: white;
+    /* Warna teks putih untuk link navigasi */
+    margin: 0 10px;
+}
+
+/* Hover effect for nav links */
+nav .nav-link:hover {
+    color: #343a40;
+    /* Warna teks saat hover */
+}
+
+/* Table styles */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    /* Warna latar belakang tabel */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Shadow untuk tabel */
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+    /* Rata kiri untuk teks di tabel */
+}
+
+.table th {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Button styles */
+.btn {
+    font-size: 0.9rem;
+    margin: 0 5px;
+    /* Margin untuk tombol */
+}
+
+.btn-info {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    /* Warna teks putih */
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    /* Warna teks putih */
+}
+
+/* Chart styles */
+#position-chart {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.section-title {
+    border-bottom: 2px solid #17a2b8;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #343a40;
+    /* Warna teks */
+}
+
+.section-body {
+    margin-bottom: 40px;
+}
+
+.salary-info-section .alert-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.salary-info-section .alert ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.salary-info-section .alert ul li {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Styling untuk section dengan id company_data */
+#company_data {
+    background-color: #343a40;
+    /* Warna background */
+    color: white;
+    /* Warna teks putih */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling untuk h4 dengan kelas company_title */
+.company_title {
+    font-size: 24px;
+    color: #17a2b8;
+    /* Warna teks */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styling untuk p dengan kelas company_address */
+.company_address,
+.company_phone {
+    font-size: 16px;
+    color: white;
+    /* Warna teks putih */
+}
+
+.company-name {
+    color: white;
+    border-bottom: 2px solid #17a2b8;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* logout-modal.css */
+.modal-content {
+    background-color: #f8d7da;
+    /* Contoh warna merah muda */
+}
+
+.modal-header {
+    background-color: #17a2b8;
+    /* Contoh warna merah */
+}
+
+.modal-title {
+    color: #ffffff;
+    /* Warna teks putih */
+}
+
+.btn-secondary {
+    color: #ffffff;
+    /* Warna teks putih */
+    background-color: #6c757d;
+    /* Contoh warna abu-abu */
+    border-color: #6c757d;
+    /* Warna border sama dengan background */
+}
+
+.modal .btn-primary {
+    color: #ffffff;
+    /* Warna teks putih */
+    background-color: #17a2b8;
+    /* Contoh warna biru */
+    border-color: #17a2b8;
+    /* Warna border sama dengan background */
+}
